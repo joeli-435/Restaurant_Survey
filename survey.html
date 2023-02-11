@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>
+            Survey
+        </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="'heading">
+            <h1 id="title">Restaurant Survey</h1>
+            <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+        </div>
+        <div class="questions">
+            <form action="https://register-demo.freecodecamp.org/" method="post" id="survey-form">
+                    <p>Personal Details</p>
+                    <hr>
+                    <label for="name" id="name-label">Name <input type="text" name='name' id='name' required placeholder="Chan Dai Man"></label>
+                    <label for="'email" id="email-label">Email <input type="email" name="email" id="email" required placeholder="cdm@gmail.com"></label>
+                    <label for="number" id="number-label">Age (optional) <input type="number" name="age" id="number" min="0" max="100" placeholder="12"></label>
+            
+                    <label for="role">Current role
+                        <select id="dropdown">
+                            <option value="">select a role</option>
+                            <option value="1">Student</option>
+                            <option value="2">Adult</option>
+                            <option value="3">The elderly</option>
+                        </select>
+                    <br>
+                    <p>Question about restaurant</p>
+                    <hr>
+                    <br>
+                    </label>
+                    
+                        Will you recommend our restaurant to others?
+                        <label for="Definiety"><input type="radio" id="Definiety" name="will" value="definiety" class="inline" > Definiety</label>
+                        <label for="Maybe"><input type="radio" id="Maybe" name="will" class="inline" value="maybe"> Maybe</label>
+                        <label for="No"><input type="radio" id='No' name="will" class="inline" value="no"> No</label>
+
+                       
+                    <br>
+                    Which food you think need to be improved?
+                    <label for="noodles"><input type="checkbox" class="inline" id="noodles" name="noodles" value="noodles"> noodles</label>
+                    <label for="beef"><input type="checkbox" class="inline" id="beef" name="beef" value="beef"> beef</label>
+                    <label for="seafood"><input type="checkbox" id="seafood" name="seafood" class="inline" value="seafood"> seafood</label>
+                    <label for="vegetable"><input type="checkbox" class="inline" name="vegetable" id="vegetable" value="vegetable"> vegetable</label>
+                    <br>
+                    Opinion 
+                    <br>
+                    <textarea placeholder="your opinion"></textarea>
+                    <br><br>
+                    <hr>
+                    <input type="submit" value="Submit" id="submit">
+              
+                    
+
+             
+               
+            </form>
+
+        </div>
+    </body>
+</html>
